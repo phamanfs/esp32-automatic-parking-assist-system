@@ -1,0 +1,23 @@
+# Arduino IDE and Arduino CLI build outputs
+build/
+*.elf
+*.hex
+*.bin
+*.map
+*.eep
+
+# PlatformIO outputs and local configuration
+.pio/
+.vscode/
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example
+secrets.h
